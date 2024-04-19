@@ -29,7 +29,7 @@ def select_account():
 
 
 def main():
-    st.title("My Bank")
+    st.title("Aswin Bank")
     menu = ["Create Account", "Manage Account"]
     choice = st.sidebar.selectbox("Menu", menu)
 
